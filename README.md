@@ -43,14 +43,17 @@ To start the Expo development server and run the app:
 
     ```bash
     npx expo start
-    ```
+
 
 Follow the Expo DevTools instructions to preview the app on an emulator or physical device.
 
 ## Features
-- Simple list of available models of Tesla, made to look like the official Tesla App.
-- ![App screenshot](./assets/images/Screenshot.png)
+- Simple list of available models of Tesla, made to look like the official Tesla App. Uses FlatList to allow the user to scroll through models. 
+
+<img src='./assets/images/Screenshot.png' alt="App Screenshot" height="300" />
+
+<img src='./assets/images/Screenshot2.png' alt="App Screenshot" height="300" />
 
 ## Built With
-- React Native - A framework for building mobile applications using React.
-- Expo - A framework for building React Native applications with easy deployment and development tools.
+- [React Native](https://reactnative.dev/) - A framework for building mobile applications using React.
+- [Expo](https://expo.dev/) - A framework for building React Native applications with easy deployment and development tools.
